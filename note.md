@@ -10,6 +10,7 @@ C编译器:
 ```sh
 nodemon --exec gcc -o output -std=c11 main.c
 
+nodemon --exec g++ -o output -O4 main.cpp
 
 ```
 
